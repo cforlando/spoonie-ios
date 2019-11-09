@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E59DD4EF2E0564D1AF2DCA4 /* Pods_Daily_SpoonieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA7152ECA883653D9824113 /* Pods_Daily_SpoonieUITests.framework */; };
+		180641602377533100A7C930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806415F2377533100A7C930 /* AppDelegate.swift */; };
+		180641622377533100A7C930 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180641612377533100A7C930 /* SceneDelegate.swift */; };
+		180641642377533100A7C930 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180641632377533100A7C930 /* MainViewController.swift */; };
+		180641672377533100A7C930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180641652377533100A7C930 /* Main.storyboard */; };
+		180641692377533300A7C930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180641682377533300A7C930 /* Assets.xcassets */; };
+		1806416C2377533300A7C930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806416A2377533300A7C930 /* LaunchScreen.storyboard */; };
+		180641772377533300A7C930 /* Daily_SpoonieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180641762377533300A7C930 /* Daily_SpoonieTests.swift */; };
+		180641822377533300A7C930 /* Daily_SpoonieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180641812377533300A7C930 /* Daily_SpoonieUITests.swift */; };
+		180641902377654A00A7C930 /* DashboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1806418F2377654A00A7C930 /* DashboardView.xib */; };
+		180641922377657500A7C930 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180641912377657500A7C930 /* DashboardView.swift */; };
+		18064194237765D500A7C930 /* ExtendibleXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18064193237765D500A7C930 /* ExtendibleXibView.swift */; };
+		183CCF1C23776E2B00D01F21 /* SpoonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183CCF1B23776E2B00D01F21 /* SpoonView.xib */; };
+		183CCF1E23776E3800D01F21 /* SpoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF1D23776E3800D01F21 /* SpoonView.swift */; };
+		183CCF2323777E8F00D01F21 /* SpoonTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF2223777E8F00D01F21 /* SpoonTemplate.swift */; };
+		183CCF2523777F3700D01F21 /* Spoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF2423777F3700D01F21 /* Spoon.swift */; };
+		183CCF2723777F9800D01F21 /* DailyReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF2623777F9800D01F21 /* DailyReport.swift */; };
+		183CCF2A237780DC00D01F21 /* SpoonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF29237780DC00D01F21 /* SpoonService.swift */; };
+		183CCF2C237780F300D01F21 /* SpoonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF2B237780F300D01F21 /* SpoonDelegate.swift */; };
+		183CCF2E2377839200D01F21 /* RealmSpoonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CCF2D2377839200D01F21 /* RealmSpoonService.swift */; };
+		585CB925DB5DE03BF475B918 /* Pods_Daily_SpoonieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA12386F8A1BBDDA4868185 /* Pods_Daily_SpoonieTests.framework */; };
+		D0E3DE5994BBC02347B7958B /* Pods_Daily_Spoonie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B05C34F0F14900E4641E928 /* Pods_Daily_Spoonie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180641732377533300A7C930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180641542377533100A7C930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1806415B2377533100A7C930;
+			remoteInfo = "Daily Spoonie";
+		};
+		1806417E2377533300A7C930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180641542377533100A7C930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1806415B2377533100A7C930;
+			remoteInfo = "Daily Spoonie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		120C816DF3D15E6F68A96FF8 /* Pods-Daily Spoonie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Spoonie.debug.xcconfig"; path = "Target Support Files/Pods-Daily Spoonie/Pods-Daily Spoonie.debug.xcconfig"; sourceTree = "<group>"; };
+		1806415C2377533100A7C930 /* Daily Spoonie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Spoonie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806415F2377533100A7C930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180641612377533100A7C930 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		180641632377533100A7C930 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		180641662377533100A7C930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180641682377533300A7C930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1806416B2377533300A7C930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1806416D2377533300A7C930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180641722377533300A7C930 /* Daily SpoonieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily SpoonieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180641762377533300A7C930 /* Daily_SpoonieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_SpoonieTests.swift; sourceTree = "<group>"; };
+		180641782377533300A7C930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806417D2377533300A7C930 /* Daily SpoonieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily SpoonieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180641812377533300A7C930 /* Daily_SpoonieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_SpoonieUITests.swift; sourceTree = "<group>"; };
+		180641832377533300A7C930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806418F2377654A00A7C930 /* DashboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardView.xib; sourceTree = "<group>"; };
+		180641912377657500A7C930 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		18064193237765D500A7C930 /* ExtendibleXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendibleXibView.swift; sourceTree = "<group>"; };
+		183CCF1B23776E2B00D01F21 /* SpoonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpoonView.xib; sourceTree = "<group>"; };
+		183CCF1D23776E3800D01F21 /* SpoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonView.swift; sourceTree = "<group>"; };
+		183CCF2223777E8F00D01F21 /* SpoonTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonTemplate.swift; sourceTree = "<group>"; };
+		183CCF2423777F3700D01F21 /* Spoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spoon.swift; sourceTree = "<group>"; };
+		183CCF2623777F9800D01F21 /* DailyReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReport.swift; sourceTree = "<group>"; };
+		183CCF29237780DC00D01F21 /* SpoonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonService.swift; sourceTree = "<group>"; };
+		183CCF2B237780F300D01F21 /* SpoonDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonDelegate.swift; sourceTree = "<group>"; };
+		183CCF2D2377839200D01F21 /* RealmSpoonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmSpoonService.swift; sourceTree = "<group>"; };
+		2B1E5A1F331838DCDE0B6FA7 /* Pods-Daily Spoonie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Spoonie.release.xcconfig"; path = "Target Support Files/Pods-Daily Spoonie/Pods-Daily Spoonie.release.xcconfig"; sourceTree = "<group>"; };
+		2D61E92EBCDF8683AD7E654D /* Pods-Daily SpoonieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily SpoonieTests.debug.xcconfig"; path = "Target Support Files/Pods-Daily SpoonieTests/Pods-Daily SpoonieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45303A8FCB42D4A218476BFA /* Pods-Daily SpoonieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily SpoonieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Daily SpoonieUITests/Pods-Daily SpoonieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B05C34F0F14900E4641E928 /* Pods_Daily_Spoonie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Spoonie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA12386F8A1BBDDA4868185 /* Pods_Daily_SpoonieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_SpoonieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AEDD62A6E04B9B1D254F46 /* Pods-Daily SpoonieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily SpoonieTests.release.xcconfig"; path = "Target Support Files/Pods-Daily SpoonieTests/Pods-Daily SpoonieTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFA7152ECA883653D9824113 /* Pods_Daily_SpoonieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_SpoonieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53ED6FBCEEC4FF67C8C77C6 /* Pods-Daily SpoonieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily SpoonieUITests.release.xcconfig"; path = "Target Support Files/Pods-Daily SpoonieUITests/Pods-Daily SpoonieUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180641592377533100A7C930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E3DE5994BBC02347B7958B /* Pods_Daily_Spoonie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806416F2377533300A7C930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585CB925DB5DE03BF475B918 /* Pods_Daily_SpoonieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806417A2377533300A7C930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E59DD4EF2E0564D1AF2DCA4 /* Pods_Daily_SpoonieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180641532377533100A7C930 = {
+			isa = PBXGroup;
+			children = (
+				1806415E2377533100A7C930 /* Daily Spoonie */,
+				180641752377533300A7C930 /* Daily SpoonieTests */,
+				180641802377533300A7C930 /* Daily SpoonieUITests */,
+				1806415D2377533100A7C930 /* Products */,
+				665C545F5F25DA23A763A745 /* Pods */,
+				1C0F665366E2157B171A7428 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1806415D2377533100A7C930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1806415C2377533100A7C930 /* Daily Spoonie.app */,
+				180641722377533300A7C930 /* Daily SpoonieTests.xctest */,
+				1806417D2377533300A7C930 /* Daily SpoonieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1806415E2377533100A7C930 /* Daily Spoonie */ = {
+			isa = PBXGroup;
+			children = (
+				183CCF2823777FFE00D01F21 /* Service */,
+				183CCF212377739D00D01F21 /* Models */,
+				183CCF1F2377736700D01F21 /* Views */,
+				1806415F2377533100A7C930 /* AppDelegate.swift */,
+				180641612377533100A7C930 /* SceneDelegate.swift */,
+				180641632377533100A7C930 /* MainViewController.swift */,
+				180641652377533100A7C930 /* Main.storyboard */,
+				180641682377533300A7C930 /* Assets.xcassets */,
+				1806416A2377533300A7C930 /* LaunchScreen.storyboard */,
+				1806416D2377533300A7C930 /* Info.plist */,
+			);
+			path = "Daily Spoonie";
+			sourceTree = "<group>";
+		};
+		180641752377533300A7C930 /* Daily SpoonieTests */ = {
+			isa = PBXGroup;
+			children = (
+				180641762377533300A7C930 /* Daily_SpoonieTests.swift */,
+				180641782377533300A7C930 /* Info.plist */,
+			);
+			path = "Daily SpoonieTests";
+			sourceTree = "<group>";
+		};
+		180641802377533300A7C930 /* Daily SpoonieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180641812377533300A7C930 /* Daily_SpoonieUITests.swift */,
+				180641832377533300A7C930 /* Info.plist */,
+			);
+			path = "Daily SpoonieUITests";
+			sourceTree = "<group>";
+		};
+		183CCF1F2377736700D01F21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1806418F2377654A00A7C930 /* DashboardView.xib */,
+				180641912377657500A7C930 /* DashboardView.swift */,
+				183CCF1B23776E2B00D01F21 /* SpoonView.xib */,
+				183CCF1D23776E3800D01F21 /* SpoonView.swift */,
+				183CCF202377737700D01F21 /* Extensions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		183CCF202377737700D01F21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18064193237765D500A7C930 /* ExtendibleXibView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		183CCF212377739D00D01F21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				183CCF2223777E8F00D01F21 /* SpoonTemplate.swift */,
+				183CCF2423777F3700D01F21 /* Spoon.swift */,
+				183CCF2623777F9800D01F21 /* DailyReport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		183CCF2823777FFE00D01F21 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				183CCF2B237780F300D01F21 /* SpoonDelegate.swift */,
+				183CCF29237780DC00D01F21 /* SpoonService.swift */,
+				183CCF2D2377839200D01F21 /* RealmSpoonService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1C0F665366E2157B171A7428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B05C34F0F14900E4641E928 /* Pods_Daily_Spoonie.framework */,
+				6CA12386F8A1BBDDA4868185 /* Pods_Daily_SpoonieTests.framework */,
+				AFA7152ECA883653D9824113 /* Pods_Daily_SpoonieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		665C545F5F25DA23A763A745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120C816DF3D15E6F68A96FF8 /* Pods-Daily Spoonie.debug.xcconfig */,
+				2B1E5A1F331838DCDE0B6FA7 /* Pods-Daily Spoonie.release.xcconfig */,
+				2D61E92EBCDF8683AD7E654D /* Pods-Daily SpoonieTests.debug.xcconfig */,
+				81AEDD62A6E04B9B1D254F46 /* Pods-Daily SpoonieTests.release.xcconfig */,
+				45303A8FCB42D4A218476BFA /* Pods-Daily SpoonieUITests.debug.xcconfig */,
+				B53ED6FBCEEC4FF67C8C77C6 /* Pods-Daily SpoonieUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1806415B2377533100A7C930 /* Daily Spoonie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180641862377533300A7C930 /* Build configuration list for PBXNativeTarget "Daily Spoonie" */;
+			buildPhases = (
+				54D1A1C283361525BE002A52 /* [CP] Check Pods Manifest.lock */,
+				180641582377533100A7C930 /* Sources */,
+				180641592377533100A7C930 /* Frameworks */,
+				1806415A2377533100A7C930 /* Resources */,
+				A0B1134BDA7AD6CFCA18D0FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Spoonie";
+			productName = "Daily Spoonie";
+			productReference = 1806415C2377533100A7C930 /* Daily Spoonie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180641712377533300A7C930 /* Daily SpoonieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180641892377533300A7C930 /* Build configuration list for PBXNativeTarget "Daily SpoonieTests" */;
+			buildPhases = (
+				3D1BC57B19F9C7D214A77CEA /* [CP] Check Pods Manifest.lock */,
+				1806416E2377533300A7C930 /* Sources */,
+				1806416F2377533300A7C930 /* Frameworks */,
+				180641702377533300A7C930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180641742377533300A7C930 /* PBXTargetDependency */,
+			);
+			name = "Daily SpoonieTests";
+			productName = "Daily SpoonieTests";
+			productReference = 180641722377533300A7C930 /* Daily SpoonieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1806417C2377533300A7C930 /* Daily SpoonieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806418C2377533300A7C930 /* Build configuration list for PBXNativeTarget "Daily SpoonieUITests" */;
+			buildPhases = (
+				DB7B767A4C5364882E495D66 /* [CP] Check Pods Manifest.lock */,
+				180641792377533300A7C930 /* Sources */,
+				1806417A2377533300A7C930 /* Frameworks */,
+				1806417B2377533300A7C930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1806417F2377533300A7C930 /* PBXTargetDependency */,
+			);
+			name = "Daily SpoonieUITests";
+			productName = "Daily SpoonieUITests";
+			productReference = 1806417D2377533300A7C930 /* Daily SpoonieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180641542377533100A7C930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "James Timberlake";
+				TargetAttributes = {
+					1806415B2377533100A7C930 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					180641712377533300A7C930 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 1806415B2377533100A7C930;
+					};
+					1806417C2377533300A7C930 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 1806415B2377533100A7C930;
+					};
+				};
+			};
+			buildConfigurationList = 180641572377533100A7C930 /* Build configuration list for PBXProject "Daily Spoonie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180641532377533100A7C930;
+			productRefGroup = 1806415D2377533100A7C930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1806415B2377533100A7C930 /* Daily Spoonie */,
+				180641712377533300A7C930 /* Daily SpoonieTests */,
+				1806417C2377533300A7C930 /* Daily SpoonieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1806415A2377533100A7C930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183CCF1C23776E2B00D01F21 /* SpoonView.xib in Resources */,
+				1806416C2377533300A7C930 /* LaunchScreen.storyboard in Resources */,
+				180641902377654A00A7C930 /* DashboardView.xib in Resources */,
+				180641692377533300A7C930 /* Assets.xcassets in Resources */,
+				180641672377533100A7C930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180641702377533300A7C930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806417B2377533300A7C930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D1BC57B19F9C7D214A77CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily SpoonieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D1A1C283361525BE002A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily Spoonie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B1134BDA7AD6CFCA18D0FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Daily Spoonie/Pods-Daily Spoonie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily Spoonie/Pods-Daily Spoonie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7B767A4C5364882E495D66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily SpoonieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180641582377533100A7C930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183CCF2323777E8F00D01F21 /* SpoonTemplate.swift in Sources */,
+				18064194237765D500A7C930 /* ExtendibleXibView.swift in Sources */,
+				180641642377533100A7C930 /* MainViewController.swift in Sources */,
+				183CCF2E2377839200D01F21 /* RealmSpoonService.swift in Sources */,
+				183CCF2A237780DC00D01F21 /* SpoonService.swift in Sources */,
+				180641922377657500A7C930 /* DashboardView.swift in Sources */,
+				183CCF2C237780F300D01F21 /* SpoonDelegate.swift in Sources */,
+				180641602377533100A7C930 /* AppDelegate.swift in Sources */,
+				183CCF2523777F3700D01F21 /* Spoon.swift in Sources */,
+				183CCF1E23776E3800D01F21 /* SpoonView.swift in Sources */,
+				180641622377533100A7C930 /* SceneDelegate.swift in Sources */,
+				183CCF2723777F9800D01F21 /* DailyReport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1806416E2377533300A7C930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180641772377533300A7C930 /* Daily_SpoonieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180641792377533300A7C930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180641822377533300A7C930 /* Daily_SpoonieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180641742377533300A7C930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1806415B2377533100A7C930 /* Daily Spoonie */;
+			targetProxy = 180641732377533300A7C930 /* PBXContainerItemProxy */;
+		};
+		1806417F2377533300A7C930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1806415B2377533100A7C930 /* Daily Spoonie */;
+			targetProxy = 1806417E2377533300A7C930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180641652377533100A7C930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180641662377533100A7C930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1806416A2377533300A7C930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806416B2377533300A7C930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180641842377533300A7C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180641852377533300A7C930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180641872377533300A7C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120C816DF3D15E6F68A96FF8 /* Pods-Daily Spoonie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily Spoonie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cfo.Daily-Spoonie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180641882377533300A7C930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1E5A1F331838DCDE0B6FA7 /* Pods-Daily Spoonie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily Spoonie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cfo.Daily-Spoonie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1806418A2377533300A7C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D61E92EBCDF8683AD7E654D /* Pods-Daily SpoonieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily SpoonieTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cfo.Daily-SpoonieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Spoonie.app/Daily Spoonie";
+			};
+			name = Debug;
+		};
+		1806418B2377533300A7C930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AEDD62A6E04B9B1D254F46 /* Pods-Daily SpoonieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily SpoonieTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cfo.Daily-SpoonieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Spoonie.app/Daily Spoonie";
+			};
+			name = Release;
+		};
+		1806418D2377533300A7C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45303A8FCB42D4A218476BFA /* Pods-Daily SpoonieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily SpoonieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cfo.Daily-SpoonieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daily Spoonie";
+			};
+			name = Debug;
+		};
+		1806418E2377533300A7C930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53ED6FBCEEC4FF67C8C77C6 /* Pods-Daily SpoonieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily SpoonieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cfo.Daily-SpoonieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daily Spoonie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180641572377533100A7C930 /* Build configuration list for PBXProject "Daily Spoonie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180641842377533300A7C930 /* Debug */,
+				180641852377533300A7C930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180641862377533300A7C930 /* Build configuration list for PBXNativeTarget "Daily Spoonie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180641872377533300A7C930 /* Debug */,
+				180641882377533300A7C930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180641892377533300A7C930 /* Build configuration list for PBXNativeTarget "Daily SpoonieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806418A2377533300A7C930 /* Debug */,
+				1806418B2377533300A7C930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1806418C2377533300A7C930 /* Build configuration list for PBXNativeTarget "Daily SpoonieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806418D2377533300A7C930 /* Debug */,
+				1806418E2377533300A7C930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180641542377533100A7C930 /* Project object */;
+}
